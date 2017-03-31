@@ -1,0 +1,12 @@
+exports[`test TodoInput renders correctly 1`] = `
+<div>
+  <input
+    onChange={[Function]}
+    type="text"
+    value="" />
+  <button
+    onClick={[Function]}>
+    Ajouter
+  </button>
+</div>
+`;

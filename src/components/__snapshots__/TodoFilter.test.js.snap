@@ -1,0 +1,68 @@
+exports[`test TodoFilter status="complete" renders correctly 1`] = `
+<div>
+  <span>
+    Filtres: 
+  </span>
+  <button
+    className=""
+    onClick={[Function]}>
+    Tous
+  </button>
+  <button
+    className="filterSelected"
+    onClick={[Function]}>
+    Terminé
+  </button>
+  <button
+    className=""
+    onClick={[Function]}>
+    A faire
+  </button>
+</div>
+`;
+
+exports[`test TodoFilter status="none" renders correctly 1`] = `
+<div>
+  <span>
+    Filtres: 
+  </span>
+  <button
+    className="filterSelected"
+    onClick={[Function]}>
+    Tous
+  </button>
+  <button
+    className=""
+    onClick={[Function]}>
+    Terminé
+  </button>
+  <button
+    className=""
+    onClick={[Function]}>
+    A faire
+  </button>
+</div>
+`;
+
+exports[`test TodoFilter status="todo" renders correctly 1`] = `
+<div>
+  <span>
+    Filtres: 
+  </span>
+  <button
+    className=""
+    onClick={[Function]}>
+    Tous
+  </button>
+  <button
+    className=""
+    onClick={[Function]}>
+    Terminé
+  </button>
+  <button
+    className="filterSelected"
+    onClick={[Function]}>
+    A faire
+  </button>
+</div>
+`;

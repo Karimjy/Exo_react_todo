@@ -1,0 +1,15 @@
+exports[`test TodoItem renders correctly 1`] = `
+<li
+  className=""
+  onClick={undefined}>
+  Item
+</li>
+`;
+
+exports[`test TodoItem renders correctly 2`] = `
+<li
+  className="complete"
+  onClick={undefined}>
+  Item
+</li>
+`;

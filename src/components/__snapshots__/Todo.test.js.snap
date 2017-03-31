@@ -1,0 +1,35 @@
+exports[`test Todo renders correctly 1`] = `
+<div>
+  <div>
+    <input
+      onChange={[Function]}
+      type="text"
+      value="" />
+    <button
+      onClick={[Function]}>
+      Ajouter
+    </button>
+  </div>
+  <ul />
+  <div>
+    <span>
+      Filtres: 
+    </span>
+    <button
+      className="filterSelected"
+      onClick={[Function]}>
+      Tous
+    </button>
+    <button
+      className=""
+      onClick={[Function]}>
+      Terminé
+    </button>
+    <button
+      className=""
+      onClick={[Function]}>
+      A faire
+    </button>
+  </div>
+</div>
+`;

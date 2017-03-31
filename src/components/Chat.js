@@ -28,7 +28,8 @@ class Chat extends Component {
     socket.on(`client:sendMessage`, data => {
       console.log('message: ' + data);
       // this.state.data.push(data);
-      this.setState({ data });
+      // this.setState({ data });
+      document.getElementById('messages').inner
     })
   }
 
@@ -40,7 +41,7 @@ class Chat extends Component {
   render() {
      return (
        <div>
-          <ul id="messages">{this.state.data}</ul>
+          <ul id="messages"></ul>
           <input type="text"  id="m" value={this.state.inputValue} onChange={this.onInputChange} />
           <button onClick={this.sendMessage}>Send</button>
         </div>
